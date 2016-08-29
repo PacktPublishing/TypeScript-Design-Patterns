@@ -48,7 +48,7 @@ namespace Adapter {
                 let transaction = this.db.transaction(this.storeName, 'readwrite');
                 let store = transaction.objectStore(this.storeName);
 
-                let request = store.put(key, value);
+                let request = store.put(value, key);
 
                 request.onsuccess = event => {
                     resolve();

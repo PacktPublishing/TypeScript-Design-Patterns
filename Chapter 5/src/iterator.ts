@@ -63,6 +63,7 @@ namespace IteratorPatternB {
         next(): IteratorResult<T> {
             if (this.index <= this.array.length) {
                 return {
+                    value: undefined,
                     done: true
                 };
             } else {
