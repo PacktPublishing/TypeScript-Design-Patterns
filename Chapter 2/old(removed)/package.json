@@ -1,0 +1,25 @@
+{
+    "name": "",
+    "version": "0.0.0",
+    "description": "",
+    "main": "bld/index.js",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/_mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vilic/foo.git"
+    },
+    "keywords": [],
+    "author": "vilicvane",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vilic/foo/issues"
+    },
+    "homepage": "https://github.com/vilic/foo#readme",
+    "devDependencies": {
+        "mocha": "latest",
+        "chai": "latest",
+        "typescript": "latest"
+    }
+}
