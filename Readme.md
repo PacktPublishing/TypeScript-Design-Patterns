@@ -5,6 +5,7 @@ TypeScript Design Patterns by Packt. It contains all the supporting project file
 This is the code repository for [TypeScript Design Patterns](https://www.packtpub.com/application-development/typescript-design-patterns?utm_source=github&utm_medium=repository&utm_campaign=9781785280832), published by Packt. There are no additional code bundle for the following chapters:
 
 <b>Chapter 8, SOLID Principles</b>
+
 <b>Chapter 9, The Road to Enterprise Application</b>
 
 
