@@ -1,0 +1,16 @@
+{
+  "name": "simple-project",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "source-map-support": "^0.4.0"
+  },
+  "devDependencies": {
+      "mocha": "latest",
+      "chai": "latest",
+      "istanbul": "latest"
+  }
+}
