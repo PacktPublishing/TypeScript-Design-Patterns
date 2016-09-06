@@ -1,7 +1,9 @@
 {
-  "name": "typescript-design-patterns-code-bundle",
+  "name": "typescript-design-patterns-code",
   "version": "0.1.0",
-  "dependencies": {},
+  "scripts": {
+    "tsc": "tsc"
+  },
   "devDependencies": {
     "typescript": "^2.0.2"
   }
