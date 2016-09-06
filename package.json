@@ -1,0 +1,8 @@
+{
+  "name": "typescript-design-patterns-code-bundle",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.0.2"
+  }
+}
