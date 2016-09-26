@@ -55,7 +55,7 @@ journey starts by explaining the current challenges when designing and
 developing an application and how you can solve these challenges by applying
 the correct design pattern and best practices.
 
-## Related Salesforce Products:
+## Related Typescript Products:
 
 - [TypeScript Essentials][typescript-essentials]
 - [TypeScript Blueprints][typescript-blueprints]
