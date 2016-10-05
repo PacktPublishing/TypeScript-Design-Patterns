@@ -5,6 +5,6 @@
     "tsc": "tsc"
   },
   "devDependencies": {
-    "typescript": "^2.0.2"
+    "typescript": "^2.0.3"
   }
 }
