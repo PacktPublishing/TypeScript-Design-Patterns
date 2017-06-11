@@ -2,3 +2,5 @@
 
 /chapter-*/bld/
 /chapter-*/out/
+
+/package-lock.json

@@ -23,14 +23,14 @@ export let server: ServerChangeStrategy<ClientValueChange<any>> = {
         calibrator: ClientTimeCalibrator
     ): boolean {
         let changes = list.changes;
-        
+
         if (changes.length) {
             return true;
         }
-        
+
         let change = changes[0];
         let changeTime = calibrator(change.lastModifiedTime);
-        
+
         if (!item.lastModifiedTime || changeTime > item.lastModifiedTime) {
             item.value = change.value;
             item.lastModifiedTime = changeTime;

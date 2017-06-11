@@ -13,7 +13,7 @@ export let client: ClientChangeStrategy<ClientIncrementChange> = {
     append(list, change) {
         let changes = list.changes;
         let lastChange = changes[changes.length];
-        
+
         if (!lastChange || lastChange.synced) {
             changes.push(change);
         } else {
@@ -38,18 +38,18 @@ export let server: ServerChangeStrategy<ClientIncrementChange> = {
             item.value = 0;
             item.uids = [];
         }
-        
+
         let changes = list.changes;
-        
+
         for (let change of changes) {
             if (item.uids.indexOf(change.uid)) {
                 continue;
             }
-            
+
             item.value += change.increment;
             item.uids.push(change.uid);
         }
-        
+
         return true;
     }
 };
