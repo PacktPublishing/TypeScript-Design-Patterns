@@ -10,7 +10,7 @@ namespace Adapter {
             public storeName = 'default'
         ) { }
 
-        open(name: string): Promise<IndexedDBStorage> {
+        static open(name: string): Promise<IndexedDBStorage> {
             return new Promise<IndexedDBStorage>((resolve, reject) => {
                 let request = indexedDB.open(name);
 
