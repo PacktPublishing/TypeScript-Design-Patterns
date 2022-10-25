@@ -66,3 +66,7 @@ the correct design pattern and best practices.
 [typescript-essentials]: https://www.packtpub.com/web-development/typescript-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782170808
 [typescript-blueprints]: https://www.packtpub.com/application-development/typescript-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781782170808
 [mastering-typescript]: https://www.packtpub.com/web-development/mastering-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781782170808
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781785280832">https://packt.link/free-ebook/9781785280832 </a> </p>
