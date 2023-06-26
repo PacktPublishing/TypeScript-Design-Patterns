@@ -25,6 +25,8 @@ namespace Singleton {
     
     class Singleton {
         private static _default: Singleton;
+        
+        private constructor(){}
 
         static get default(): Singleton {
             if (Singleton._default) {
